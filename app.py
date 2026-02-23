@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotli.pyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 # ---------------------------------
@@ -257,3 +257,4 @@ with col8:
         st.pyplot(fig)
     else:
         st.error("Faltan columnas numéricas: edadjugador, pesojugador, alturajugador e imc.")
+
